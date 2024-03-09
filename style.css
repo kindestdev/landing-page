@@ -1,0 +1,214 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* background-color: black; */
+}
+/* header */
+.header{
+    box-sizing: border-box;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.wrapper-firstpart{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.container1{
+    background-color: #1f2937;
+    padding-top: 20px;
+}
+
+
+.textlogo{
+    color: white;
+    font-size: 31px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: #a5a5a5;
+    font-weight:600;
+}
+.linkul{
+    width: 800px;
+    display:flex ;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.linkul li{
+    font-size: 18px;
+    width: 160px;
+}
+/* below header text and img */
+.container2{
+    box-sizing: border-box;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 100px;
+}
+.bigtext{
+    width: 400px;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.parraf{
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 500px;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+button{
+    width: 80px;
+    
+}
+.bothtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+  font-size: 20px;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+/* "some random information part" */
+.infotittle{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+li img{
+    width: 200px;
+    height: 150px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+li img{
+    border-radius: 6px;
+}
+.infopics ul{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+/* quote part */
+.quotecontainer{
+    background-color: #e5e7eb;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    height: 490px;
+    justify-content: center;
+
+}
+.quotecontainer p{
+    width: 1200px;
+    font-size: 36px;
+    color: light italic #1f2937;
+    margin: 5px 0;
+}
+.autor{
+    font-weight:900;
+    display: flex;
+    justify-content: flex-end;
+}
+/* blue bottom part */
+.container3{
+    display: flex;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+}
+.bluecontainer{
+    color: white;
+    background-color: rgb(60, 158, 255) ;
+    display: flex;
+    width: 1200px;
+    height: 235px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.bluecontainer button{
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-color: white;
+    background-color: rgb(60, 158, 255);
+    border-radius: 5px;
+    border-width: 4px;
+}
+.bluecontainer .tittle {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.bluecontainer .liltext{
+    margin: 5px ;
+}
