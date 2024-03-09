@@ -219,3 +219,15 @@ li img{
 .bluecontainer .liltext{
     margin: 5px ;
 }
+/* footer */
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px ;
+}
+.footer p{
+    color: white;
+    font-size: 20px;
+}
