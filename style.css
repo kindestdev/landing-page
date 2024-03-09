@@ -138,11 +138,6 @@ button{
     font-weight: 900;
     color: #1f2937;
 }
-
-li img{
-    width: 200px;
-    height: 150px;
-}
 li{
     display: flex;
     flex-direction: column;
@@ -151,7 +146,13 @@ li{
     text-align: center;
 }
 li img{
-    border-radius: 6px;
+    border-radius: 10px;
+    border-color: rgb(60, 158, 255);
+    border-width: 5px;
+    width: 200px;
+    height: 150px;
+    border-style: solid;
+    
 }
 .infopics ul{
     display: flex;
@@ -159,6 +160,13 @@ li img{
     gap: 80px;
     padding-bottom: 100px;
     align-items: center;
+    padding-top: 50px;
+}
+.infocontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
 }
 
 /* quote part */
